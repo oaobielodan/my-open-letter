@@ -3,26 +3,49 @@
     src: url('Myfont-Regular.otf');
 }
 
+body {
+    position: relative;
+}
+
 h3 {
     width: 50em;
-    padding: 2rem;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
+    font-size: 20px;
+}
+
+#letter-form {  
+    padding: 3rem;
+    width: 50em; 
+    max-width: 800px;
+    margin: auto;
+    border: 40px solid pink;
 }
 
 p {
     font-family: Handwritting, 'Avenir', sans-serif;
     font-size: 20px;
     width: 50em;
-    padding: 3rem;
     max-width: 800px;
-    margin: 0 auto;
 }
 
 a {
     color: pink;
 }
 
-a.hover {
-    color: palegreen;
+p #sign-off {
+    width: 400px;
+    display: inline;
+    float: left;
+}
+
+div #cute-octo {
+    width: 400px;
+    display: inline;
+    float: right;
+}
+ 
+div #cute-octo img {
+    display: block;
+    width: 100%;
 }
