@@ -26,9 +26,15 @@ body {
 
 .sign-in {
     position: absolute;
-    z-index: 9;
-    margin: 30px;
+    margin: 20px;
     text-align: center;
+    transform: rotate(-90deg);
+}
+
+.sign-in p {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
 
 .letter-form {  
@@ -43,7 +49,7 @@ body {
     overflow-y: scroll;
 }
 
-p {
+.letter-form p {
     font-family: Handwritting, 'Avenir', sans-serif;
     font-size: 20px;
     width: 50em;
@@ -54,19 +60,19 @@ a {
     color: pink;
 }
 
-p #sign-off {
+p .sign-off {
     width: 400px;
     display: inline;
     float: left;
 }
 
-div #cute-octo {
+div .cute-octo {
     width: 400px;
     display: inline;
     float: right;
 }
  
-div #cute-octo img {
+div .cute-octo img {
     display: block;
     width: 100%;
 }
