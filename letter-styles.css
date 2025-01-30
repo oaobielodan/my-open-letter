@@ -29,11 +29,11 @@ body {
     margin: 20px;
     text-align: center;
     transform: rotate(-90deg);
+    left: 150px;
 }
 
 .sign-in p {
-    font-size: 30px;
-    letter-spacing: 5px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -58,6 +58,10 @@ body {
 
 a {
     color: pink;
+}
+
+a:hover {
+    color: rgb(245, 75, 103);
 }
 
 p .sign-off {
