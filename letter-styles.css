@@ -1,0 +1,28 @@
+@font-face { 
+    font-family: Handwritting;
+    src: url('Myfont-Regular.otf');
+}
+
+h3 {
+    width: 50em;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Handwritting, 'Avenir', sans-serif;
+    font-size: 20px;
+    width: 50em;
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a {
+    color: pink;
+}
+
+a.hover {
+    color: palegreen;
+}
