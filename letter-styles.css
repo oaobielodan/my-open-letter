@@ -3,23 +3,44 @@
     src: url('Myfont-Regular.otf');
 }
 
+html {
+    background-image: url(letter-background.jpg);
+    background-size: cover;
+    background-size: 100% 100vh;
+    margin: 0;
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    height: 100%;
+}
+
+.body-div {
     position: relative;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
-h3 {
-    width: 50em;
-    max-width: 800px;
-    margin: auto;
-    font-size: 20px;
+.sign-in {
+    position: absolute;
+    z-index: 9;
+    margin: 30px;
+    text-align: center;
 }
 
-#letter-form {  
+.letter-form {  
+    display: block;
     padding: 3rem;
     width: 50em; 
     max-width: 800px;
+    height: 50em;
     margin: auto;
     border: 40px solid pink;
+    background-color: white;
+    overflow-y: scroll;
 }
 
 p {
