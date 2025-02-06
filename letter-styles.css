@@ -66,19 +66,19 @@ a:hover {
 }
 
 p.sign-off {
-    width: 400px;
+    width: 350px;
     display: inline;
     float: left;
 }
 
-div .cute-octo {
-    width: 400px;
+.img-container {
+    width: 450px;
     height: 140px;
     display: inline;
     float: right;
 }
- 
-div .cute-octo img {
+
+.img-container .cute-octo {
     display: block;
     width: 100%;
     height: 100%;
